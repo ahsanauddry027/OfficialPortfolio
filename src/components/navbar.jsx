@@ -29,7 +29,7 @@ const navbar = () => {
    
     <div className="flex justify-between items-center w-full h-15 md:h-25 fixed text-white bg-black px-4 md:py-4">
       <div>
-        <h1 className="font-sign text-3xl md:text-5xl ml-2 hover:scale-110 duration-200 cursor-pointer">
+        <h1 className="font-sign text-3xl md:text-5xl ml-2 hover:scale-110 hover:text-gray-400 duration-200 cursor-pointer">
           Ahsan auddRy
         </h1>
         

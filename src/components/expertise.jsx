@@ -14,32 +14,44 @@ const expertise = () => {
     {
       id:1,
       src:Cplus,
-      color:"shadow-cyan-600"
+      color:"shadow-cyan-600",
+      namees:"C++",
+      hoov:"hover:text-cyan-600"
     },
     {
       id:2,
       src:Java,
-      color:"shadow-red-500"
+      color:"shadow-red-500",
+      namees:"Java",
+      hoov:"hover:text-red-600"
     },
     {
       id:3,
       src:Python,
-      color:"shadow-pink-500"
+      color:"shadow-pink-500",
+      namees:"Python",
+      hoov:"hover:text-pink-600"
     },
     {
       id:4,
       src:Javas,
-      color:"shadow-yellow-500"
+      color:"shadow-yellow-500",
+      namees:"JavaScript",
+      hoov:"hover:text-yellow-600"
     },
     {
       id:5,
       src:Reacti,
-      color:"shadow-red-500"
+      color:"shadow-red-500",
+      namees:"React-Js",
+      hoov:"hover:text-red-600"
     },
     {
       id:6,
       src:Tailw,
-      color:"shadow-cyan-600"
+      color:"shadow-cyan-600",
+      namees:"Tailwind",
+      hoov:"hover:text-cyan-600"
     }
   ]
   return (
@@ -55,14 +67,14 @@ const expertise = () => {
       </div>
       <div className=' grid sm:grid-cols-2 md:grid-cols-3 sm:gap-3 md:gap-7 px-15 md:px-0'>
       {
-        links.map(({id,src,color})=> (
+        links.map(({id,src,color,namees,hoov})=> (
           <div key={id} className= {`shadow-md rounded-lg ${color}`}>
           <img width={250} height={250} className="rounded-md hover:scale-110 duration-200 py-5" src={src} alt="">
 
           </img>
           <div className='flex justify-center items-center'>
-            <button className='hover:text-cyan-500 text-white px-5 py-5 font-bold text-2xl hover:scale-110 duration-200'>
-            Learn More
+            <button className={` text-white px-5 py-5 font-bold text-2xl hover:scale-110 ${hoov} duration-200`}>
+            {namees}
             </button>
             
           </div>

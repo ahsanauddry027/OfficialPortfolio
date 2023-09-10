@@ -9,7 +9,7 @@ const social_links = () => {
         LinkedIn <FaLinkedinIn size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/ahsan-habib-636533290/',
       style: 'rounded-tr-md'
     },
     {
@@ -19,7 +19,7 @@ const social_links = () => {
         FaceBook <FaFacebook size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.facebook.com/profile.php?id=100092839736950',
       style: 'rounded-tr-md'
     },
     {
@@ -29,7 +29,7 @@ const social_links = () => {
         GitHub <FaGithub size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://github.com/ahsanauddry027',
       style: 'rounded-tr-md'
     },
     {
@@ -39,7 +39,7 @@ const social_links = () => {
         Instagram <FaInstagram size={30}/>
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://www.instagram.com/_ah_saaaan_/',
       style: 'rounded-br-md'
     }
   ]
@@ -48,7 +48,7 @@ const social_links = () => {
     <ul>
     {links.map(({id,child,href,style})=>(
       // eslint-disable-next-line no-useless-concat
-      <li key={id} className={'flex justify-between items-center w-40 h-14 bg-gray-500 ml-[-100px] hover:rounded-lg hover:ml-[-10px] duration-300 px-2' + " "+style}><a href={href}
+      <li key={id} className={'flex justify-between items-center w-40 h-14 bg-gray-500 ml-[-100px] hover:rounded-lg hover:ml-[-10px] duration-500 px-2' + " "+style}><a href={href}
       className='flex justify-between w-full text-white px-1' target='_blank' rel='noreferrer'>{child}</a></li>
 
     ))}
