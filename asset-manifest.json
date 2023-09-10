@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OfficialPortfolio/static/css/main.9a4d03af.css",
+    "main.js": "/OfficialPortfolio/static/js/main.44bc99d3.js",
+    "static/media/IMG_7817.png": "/OfficialPortfolio/static/media/IMG_7817.dea5a86453f96966539f.png",
+    "static/media/MyLogo.png": "/OfficialPortfolio/static/media/MyLogo.12f3f7fa661c6b21dc3f.png",
+    "static/media/pngwing.com (4).png": "/OfficialPortfolio/static/media/pngwing.com (4).3549d9e451d7abb96934.png",
+    "static/media/pngwing.com (1).png": "/OfficialPortfolio/static/media/pngwing.com (1).34777258570244e27222.png",
+    "static/media/resume.pdf": "/OfficialPortfolio/static/media/resume.99a81336eb1aa7058966.pdf",
+    "static/media/pngwing.com.png": "/OfficialPortfolio/static/media/pngwing.com.5d5cffa04d820ba0644c.png",
+    "static/media/ReactIcon.png": "/OfficialPortfolio/static/media/ReactIcon.20adfb35ae6a6e5817bf.png",
+    "static/media/pngwing.com (6).png": "/OfficialPortfolio/static/media/pngwing.com (6).3cacb63905f322fb3541.png",
+    "static/media/pngwing.com (3).png": "/OfficialPortfolio/static/media/pngwing.com (3).8a3de935758d545a29c9.png",
+    "index.html": "/OfficialPortfolio/index.html",
+    "main.9a4d03af.css.map": "/OfficialPortfolio/static/css/main.9a4d03af.css.map",
+    "main.44bc99d3.js.map": "/OfficialPortfolio/static/js/main.44bc99d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4d03af.css",
+    "static/js/main.44bc99d3.js"
+  ]
+}
